@@ -4,14 +4,14 @@ import weatherController from './weatherController';
 let units = 'imperial';
 
 const toggleUnits = document.querySelector('.toggle-units');
-toggleUnits.textContent = 'Metric';
+toggleUnits.textContent = 'Imperial';
 toggleUnits.addEventListener('click', () => {
   if (units === 'imperial') {
     units = 'metric';
-    toggleUnits.textContent = 'Imperial';
+    toggleUnits.textContent = 'Metric';
   } else {
     units = 'imperial';
-    toggleUnits.textContent = 'Metric';
+    toggleUnits.textContent = 'Imperial';
   }
 });
 
