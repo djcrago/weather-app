@@ -1,16 +1,14 @@
 {
-  "name": "template-repository",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
+  "author": "Dexter Crago",
+  "description": "This repository houses a weather app that provides real-time data for any location in the world.",
   "private": true,
+  "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.9.1",
     "eslint": "^8.56.0",
